@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: PUCRS Pos FullStack
+site_url: https://mydomain.org/mysite
+
+plugins:
+  - mkdocs-audio
+  - search
+
+theme:
+  language: pt-BR
+  logo: assets/icon_50.png
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: blue grey
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: blue grey
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: black
+
+  features:
+    - toc.follow
+    # Navigation <---------------------
+    - navigation.expand
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    # -------------------------------->
+
+    # Search <----------------
+    - search.suggest
+    - search.highlight
+    - search.share
+    # -------------------------------->
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Fundamentos:
+      - "Introdução": fundamentos/intro.md
+      - "Computação": fundamentos/computacao.md
+      - "Logica": fundamentos/logica.md
+      - "Networking": fundamentos/networking.md
+      - "Estrutura de Dados": fundamentos/datastructure.md
+      - "Algoritimos": fundamentos/algoritimo.md
+  - Front End:
+      - "Introdução": backend/microservicos.md
+  - Back End:
+      - "Introdução": <page.md>
+  - DevOps:
+      - "Introdução": <page.md>
+  - UX/UI:
+      - "Introdução": <page.md>
+  - Segurança:
+      - "Introdução": seguranca/Seguranca.md
+      - "Aplicacao": seguranca/seguranca_tcc.md
+      - "Criptografia": seguranca/criptografia.md
+      - "Fundamentos":
+          - "Intro": seguranca/fundamentos.md
+          - "Matematica": seguranca/matematica_cripto.md
+  - TCC:
+      - "Introdução": <page.md>
