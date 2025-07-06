@@ -1,30 +1,58 @@
-# Welcome to MkDocs
+# Manual do Candidato
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Pre-Requisitos
+O Site do curso passa informacoes muito vagas sobre os pre-requisitos para acompanhar o curso.
 
-## Commands
+<div class="grid cards" markdown>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
 
-## Project layout
+    ---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    Install [`mkdocs-material`](#) with [`pip`](#) and get up
+    and running in minutes
 
-## New subtitle
+    [:octicons-arrow-right-24: Getting started](#)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
 
+    ---
 
-## Who use it
+    Focus on your content and generate a responsive and searchable static site
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    [:octicons-arrow-right-24: Reference](#)
 
-### Who else
+-   :material-format-font:{ .lg .middle } __Made to measure__
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
+- Sem Memoria, nao ha futuro
+  Pointers, Registros, Vetores, Algoritimos e a importancia de calcular o tempo que tudo isso leva pra ser processado
+  (Fundamentos da Computacao)
+- Como Eletricidade vira Site?
+  Voce tem 99 problemas e 404 é um deles? O TCP/IP vai te salvar
+  (Rede de computadores)
+- Sem Memoria, nao havera Futuro
+  Pointers, Registros, Vetores, Algoritimos e a importancia de calcular o tempo que tudo isso leva pra ser processado
+  (Fundamentos da Computacao)
+- Acesso Negado (Seguranca)
+  Aprenda o basico sobre seguranca utilizando protocolo ssh e configure seu GitHub por tabela
+  (Seguranca de Software)
+- Que lingua eles falam? 
+  O que voce deve saber para manter um dialogo em sala de aula
+  (Fundamentos de Programacao)
+
